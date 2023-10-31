@@ -1,0 +1,78 @@
+/* Reset de estilos para garantir consistência */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para o container principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o título */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para a entrada de texto */
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+/* Estilos para o botão */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1A4541;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos de hover para o botão */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para o resultado da busca */
+#resultado {
+    margin-top: 20px;
+}
+
+/* Estilos para texto em negrito */
+strong {
+    font-weight: bold;
+}
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+/* Responsividade para telas menores */
+@media screen and (max-width: 600px) {
+    input {
+        width: 90%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
